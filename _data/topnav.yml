@@ -1,0 +1,52 @@
+topnav:
+  - title: Chapter
+    items:
+      - title: 1. Introduction
+        group: Chapter. 1
+        url: /docs/chapter01/0 
+      - title: 2. Interpretability
+        group: Chapter. 2
+        url: /docs/chapter02/0
+      - title: 3. Datasets
+        group: Chapter. 3
+        url: /docs/chapter02/0
+      - title: 4. Interpretable Models
+        group: Chapter. 4
+        url: /docs/chapter04/0
+      - title: 5. Model-Agnostic Methods
+        group: Chapter. 4
+        url: /docs/chapter05/0
+      - title: 6. Example-Based Explanations
+        group: Chapter. 6
+        url: /docs/chapter06/0
+      - title: 7. Neural Network Interprtation
+        group: Chapter. 7
+        url: /docs/chapter07/0
+      - title: 8. A Look into the Crystal Ball
+        group: Chapter. 8
+        url: /docs/chapter08/0
+  - title: 1
+    group: "Chapter. 1"
+    url: /docs/chapter01/0 
+  - title: 2
+    group: "Chapter. 2"
+    url: /docs/chapter02/0
+  - title: 3
+    group: "Chapter. 3"
+    url: /docs/chapter03/0
+  - title: 4
+    group: "Chapter. 4"
+    url: /docs/chapter04/0
+  - title: 5
+    group: "Chapter. 5"
+    url: /docs/chapter05/0 
+  - title: 6
+    group: "Chapter. 6"
+    url: /docs/chapter06/0
+  - title: 7
+    group: "Chapter. 7"
+    url: /docs/chapter07/0
+  - title: 8
+    group: "Chapter. 8"
+    url: /docs/chapter08/0
+

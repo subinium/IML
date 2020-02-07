@@ -1,0 +1,20 @@
+# Site settings
+title: Interpretable Machine Learning
+
+email: "subinium@gmail.com"
+url: "http://subinium.github.io"
+github_url: "http://github.com/subinium/Interpretable_Machine_Learning"
+github_profile: "http://github.com/subinium"
+baseurl: "/IML"
+disqus_shortname: www-subinium-github-io
+
+exclude:
+  - README.md
+  - _site
+  
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

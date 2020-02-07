@@ -1,0 +1,110 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <div class="well-sm">
+      <h3>Introduction</h3>
+
+      <p><b>Interpretable Machine Learning</b>를 번역 및 정리한 페이지입니다. :) </p>
+      
+      <p>번역을 허락해주신 Chritoph Molnar에게 감사의 인사를 전합니다.</p>
+
+      <p><b>Special thanks to Christoph Molnar</b></p>
+
+      <p>
+	      <a href="https://christophm.github.io/interpretable-ml-book/index.html" target="_blank">
+	        <button type="button" class="btn btn-success">원본</button>
+	      </a>
+      </p>
+
+      <p><em>이 페이지는 <a href="https://norman3.github.io/prml">norman3님의 PRML 정리</a> Theme을 사용하여 만든 페이지입니다.</em> </p>
+
+    </div>
+    
+    <div class="well-sm">
+      <h3>New Posts</h3>
+      <ul class="post-list">
+	      {% for post in site.posts limit:3 %}
+	      <li>
+	        <h4>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        </h4>
+	        <p><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></p>
+	        {{ post.excerpt }}
+          <hr/>          
+	      </li>
+	      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
+  <div class="col-sm-12 col-md-6">
+    <div class="well-sm">
+      <h3>1. Introduction</h3>
+      <ul>
+        <li><a href="{{ site.baseurl }}/docs/chapter01/1">1. Story Time</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter01/2">2. What Is Machine Learning?</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter01/3">3. Terminology</a></li>
+      </ul>
+    </div>
+    
+    <div class="well-sm">
+      <h3>2. Interpretability</h3>
+      
+    </div>
+
+    <div class="well-sm">
+      <h3>3. Datasets</h3>
+      
+    </div>
+
+    <div class="well-sm">
+      <h3>4. Interpretable Models</h3>
+      <ul>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/1">1. Linear Regression</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/2">2. Logistic Regression</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/3">3. GLM, GAM and more</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/4">4. Decision Tree</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/5">5. Decision Rules</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/6">6. RuleFit</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter04/7">7. Other Interpretable Models</a></li>
+      </ul>
+    </div>
+    
+    <div class="well-sm">
+      <h3>5. Model-Agnostic Methods</h3>
+      <ul>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/1">1. Partial Dependence Plot (PDP)</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/2">2. Individual Conditional Expectation (ICE)</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/3">3. Accumulated Local Effects (ALE) Plot</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/4">4. Feature Interaction</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/5">5. Permutation Feature Importance</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/6">6. Global Surrogate</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/7">7 Local Surrogate (LIME)</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/8">8 Scoped Rules (Anchors)</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/9">9 Shapley Values</a></li>
+        <li><a href="{{ site.baseurl }}/docs/chapter05/10">10. SHAP (SHapley Additive exPlanations)</a></li>
+      </ul>
+    </div>
+    
+    <div class="well-sm">
+      <h3>6. Example-Based Explanations</h3>
+      
+    </div>
+    
+    <div class="well-sm">
+      <h3>7. Neural Network Interprtation</h3>
+      
+    </div>
+    
+    <div class="well-sm">
+      <h3>8. A Look into the Crystal Ball</h3>
+      
+    </div>
+
+  </div>
+</div>
+
+
+
